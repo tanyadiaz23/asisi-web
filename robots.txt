@@ -3,3 +3,4 @@ Allow: /
 Disallow: /go/
 
 Sitemap: https://asisilab.com/sitemap.xml
+# deploy trigger
