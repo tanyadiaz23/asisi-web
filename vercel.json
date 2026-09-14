@@ -1,0 +1,12 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/metricool", "destination": "/go/metricool", "permanent": false },
+    { "source": "/elevenlabs", "destination": "/go/elevenlabs", "permanent": false },
+    { "source": "/boldsign", "destination": "/go/boldsign", "permanent": false },
+    { "source": "/metro", "destination": "/go/metricool", "permanent": false },
+    { "source": "/once", "destination": "/go/elevenlabs", "permanent": false },
+    { "source": "/pluma", "destination": "/go/boldsign", "permanent": false }
+  ]
+}
