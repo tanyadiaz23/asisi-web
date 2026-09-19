@@ -74,7 +74,7 @@ header{position:absolute;z-index:20;left:0;right:0;top:0;padding:22px 0}
 .ctabox h2{font-family:Manrope,Inter,sans-serif;font-size:30px;margin:0 0 6px}.ctabox p{margin:0;color:#D7E2DE}.ctaicon{display:grid;place-items:center}.ctaicon img{width:108px;filter:drop-shadow(0 14px 30px rgba(0,0,0,.35))}.ctaright{text-align:right}
 footer{padding:34px 0 42px;border-top:1px solid var(--line);background:#051214}
 .footer-row{display:flex;align-items:center;justify-content:space-between;gap:30px;color:#9DB0B2;font-size:13px}
-.footer-links{display:flex;gap:20px;flex-wrap:wrap}.footer-links a:hover{color:var(--green)}
+.footer-links{display:flex;gap:20px;flex-wrap:wrap;align-items:center}.footer-links>a:hover{color:var(--green)}.socials{display:inline-flex;gap:9px;margin-left:4px}.socials a{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.035);color:#DDE6E7;transition:.2s ease}.socials a:hover{color:var(--green);border-color:rgba(52,241,132,.45);background:rgba(52,241,132,.08);transform:translateY(-1px)}.socials svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.socials a:nth-child(3) svg,.socials a:nth-child(5) svg{fill:currentColor;stroke:none}.socials a:nth-child(4) svg path:first-child{fill:none}.socials a:nth-child(4) svg path:last-child{fill:currentColor;stroke:none}
 @media(max-width:900px){
   header{position:relative;background:#061416}.nav{flex-wrap:wrap}.navlinks{display:none}.navcta{margin-left:auto}.brand{font-size:20px}.brand img{width:42px;height:42px}
   .hero{min-height:auto}.hero::before{background-position:63% center;opacity:.55}.hero-inner{grid-template-columns:1fr;min-height:auto;padding-top:64px;padding-bottom:76px}.hero h1{max-width:650px}
@@ -176,6 +176,23 @@ footer{padding:34px 0 42px;border-top:1px solid var(--line);background:#051214}
       <a href="https://thedigytalstudio.systeme.io/4f048534">Sobre TDS</a>
       <a href="https://thedigytalstudio.systeme.io/7a3438bd">Políticas</a>
       <a href="https://thedigytalstudio.systeme.io/a7177fef">Contacto</a>
+      <span class="socials" aria-label="Redes sociales">
+        <a href="https://www.instagram.com/thedigytalstudio/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@thedigytalstudio" target="_blank" rel="noopener" aria-label="TikTok" title="TikTok">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v10.2a4.2 4.2 0 1 1-3.3-4.1"/><path d="M14 3c.8 2.4 2.2 3.9 5 4.2"/></svg>
+        </a>
+        <a href="https://www.facebook.com/ThedigYtalStudio" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h4V4h-4c-3 0-5 2-5 5v3H6v4h3v5h4v-5h4l1-4h-5V9c0-.7.3-1 1-1z"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@ThedigYtalStudio" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 8.2a3 3 0 0 0-2.1-2.1C17.1 5.5 12 5.5 12 5.5s-5.1 0-6.9.6A3 3 0 0 0 3 8.2 31 31 0 0 0 2.5 12 31 31 0 0 0 3 15.8a3 3 0 0 0 2.1 2.1c1.8.6 6.9.6 6.9.6s5.1 0 6.9-.6a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-3.8 31 31 0 0 0-.5-3.8z"/><path d="m10 9 5 3-5 3z"/></svg>
+        </a>
+        <a href="https://www.pinterest.com/ThedigYtalStudio/" target="_blank" rel="noopener" aria-label="Pinterest" title="Pinterest">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-3.3 17.4c-.1-1.5 0-3.2.4-4.8l1.1-4.7s-.3-.7-.3-1.8c0-1.7 1-3 2.2-3 1 0 1.6.8 1.6 1.8 0 1.1-.7 2.7-1 4.1-.3 1.2.6 2.2 1.8 2.2 2.2 0 3.8-2.3 3.8-5.6 0-2.9-2.1-5-5.1-5-3.5 0-5.5 2.6-5.5 5.3 0 1 .4 2.1.9 2.7.1.1.1.2.1.4l-.3 1.2c-.1.4-.3.5-.7.3-1.7-.8-2.7-3.1-2.7-5C5 4.5 8 2 12.7 2 16.7 2 20 4.9 20 8.8c0 4-2.5 7.2-5.9 7.2-1.2 0-2.3-.6-2.7-1.4l-.7 2.8c-.3 1-.9 2.3-1.4 3.1.9.3 1.8.5 2.8.5a9 9 0 0 0 0-18z"/></svg>
+        </a>
+      </span>
     </div>
   </div>
 </footer>
