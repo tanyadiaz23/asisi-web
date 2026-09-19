@@ -1,128 +1,182 @@
 <!doctype html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ASI SI — Soluciones que te simplifican la vida</title>
-  <meta name="description" content="ASI SI encuentra, compara y selecciona apps, gadgets, herramientas y tecnología útil que resuelven problemas reales y simplifican tu día a día.">
-  <meta property="og:title" content="ASI SI — Soluciones que te simplifican la vida">
-  <meta property="og:description" content="Un laboratorio de soluciones útiles para tu día a día.">
-  <meta property="og:type" content="website">
-  <link rel="icon" href="logo-oficial.png">
-  <link rel="stylesheet" href="styles.css">
-  <!-- TikTok Pixel Code Start -->
-  <script>
-  !function (w, d, t) {
-    w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};
-    for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);
-    ttq.instance=function(t){var e=ttq._i[t]||[];for(var n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e};
-    ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script"),n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0],e.parentNode.insertBefore(n,e)};
-    ttq.load('DAIODBJC77UC8FLK3J60');
-    ttq.page();
-  }(window, document, 'ttq');
-  </script>
-  <!-- TikTok Pixel Code End -->
-  <script defer src="tiktok-events.js"></script>
-  <!-- Impact Tracking Code Start -->
-  <script type="text/javascript">(function(i,m,p,a,c,t){c.ire_o=p;c[p]=c[p]||function(){(c[p].a=c[p].a||[]).push(arguments)};t=a.createElement(m);var z=a.getElementsByTagName(m)[0];t.async=1;t.src=i;z.parentNode.insertBefore(t,z)})('https://utt.impactcdn.com/P-A7763350-9951-4fc5-b5cd-1e7d2efd734a1.js','script','impactStat',document,window);impactStat('trackImpression');</script>
-  <!-- Impact Tracking Code End -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The DigYtal Studio — Sistemas digitales para negocios más inteligentes</title>
+<meta name="description" content="Productos digitales, sistemas y herramientas prácticas para ayudarte a trabajar mejor, vender mejor y crecer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+<link rel="icon" href="https://d1yei2z3i6k35z.cloudfront.net/19058678/6aaf00d36b8201.64005125_FAVICON.png">
+<style>
+:root{
+  --bg:#061416;--bg2:#0A1B1E;--card:#0D2023;--card2:#11292C;
+  --green:#34F184;--green2:#63FA73;--blue:#169AF7;--blue2:#0A68EA;
+  --white:#F5F7F7;--muted:#BAC7C9;--line:rgba(255,255,255,.10);
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:Inter,Arial,sans-serif;line-height:1.45}a{text-decoration:none;color:inherit}img{max-width:100%;display:block}
+.wrap{width:min(1180px,calc(100% - 48px));margin:auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 22px;border-radius:999px;font-weight:800;border:1px solid transparent;transition:.2s ease}
+.btn.primary{background:linear-gradient(90deg,var(--green),var(--green2));color:#03100A;box-shadow:0 14px 40px rgba(52,241,132,.18)}
+.btn.primary:hover{transform:translateY(-1px);box-shadow:0 18px 44px rgba(52,241,132,.28)}
+.btn.ghost{border-color:rgba(255,255,255,.35);background:rgba(5,20,22,.42);backdrop-filter:blur(8px)}
+.green{color:var(--green)}.kicker{font-size:12px;text-transform:uppercase;letter-spacing:.24em;color:var(--green);font-weight:800}
+header{position:absolute;z-index:20;left:0;right:0;top:0;padding:22px 0}
+.nav{display:flex;align-items:center;gap:28px}
+.brand{display:flex;align-items:center;gap:12px;font-family:Manrope,Inter,sans-serif;font-size:24px;font-weight:800;white-space:nowrap}
+.brand img{width:48px;height:48px;object-fit:contain}
+.navlinks{display:flex;gap:24px;margin-left:auto;font-size:14px;color:#E7EEEE}
+.navlinks a:hover{color:var(--green)}
+.navcta{margin-left:6px}
+.hero{min-height:670px;position:relative;overflow:hidden;background:#061416}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background:
+    linear-gradient(90deg,#061416 0%,#061416 32%,rgba(6,20,22,.88) 45%,rgba(6,20,22,.20) 72%,rgba(6,20,22,.06) 100%),
+    url('https://images.unsplash.com/photo-1758873272222-ccd8c4296864?auto=format&fit=crop&fm=jpg&q=85&w=2200') center right/cover no-repeat;
+}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:120px;background:linear-gradient(transparent,var(--bg))}
+.hero-inner{position:relative;z-index:3;min-height:670px;display:grid;grid-template-columns:minmax(0,520px) 1fr;align-items:center;padding-top:120px;padding-bottom:82px}
+.hero h1{font-family:Manrope,Inter,sans-serif;font-size:clamp(54px,6vw,80px);line-height:.95;letter-spacing:-.055em;margin:14px 0 24px;font-weight:800}
+.hero p{font-size:18px;color:#D5DEDF;max-width:470px;margin:0 0 28px}
+.actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:28px}
+.proof{display:flex;align-items:center;gap:12px;color:#C6D0D1;font-size:14px}
+.proof-icon{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;border:1px solid rgba(52,241,132,.45);background:rgba(52,241,132,.08);color:var(--green);font-weight:900}
+.values{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#071719}
+.valuegrid{display:grid;grid-template-columns:repeat(4,1fr)}
+.value{padding:34px 30px;border-right:1px solid var(--line)}
+.value:last-child{border-right:0}
+.ico{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;color:var(--green);border:1px solid rgba(52,241,132,.24);background:rgba(52,241,132,.06);font-size:22px;margin-bottom:16px}
+.value h3{margin:0 0 7px;font-size:20px}.value p{margin:0;color:var(--muted);font-size:14px}
+.split{display:grid;grid-template-columns:1.1fr .9fr;min-height:520px}
+.split-photo{
+  min-height:520px;
+  background:url('https://images.unsplash.com/photo-1783115259399-3a5a3e0e4592?auto=format&fit=crop&fm=jpg&q=85&w=2200') center/cover no-repeat;
+  position:relative
+}
+.split-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,20,22,.03),rgba(6,20,22,.48))}
+.split-copy{padding:72px 8vw 70px 62px;background:radial-gradient(circle at 18% 30%,rgba(52,241,132,.07),transparent 38%),var(--bg)}
+.split h2{font-family:Manrope,Inter,sans-serif;font-size:clamp(40px,4.2vw,60px);line-height:1.01;letter-spacing:-.04em;margin:15px 0 20px}
+.split-copy>p{color:var(--muted);font-size:17px;max-width:540px}
+.minis{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px}
+.mini{padding:20px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.012))}
+.mini .ico{margin:0 0 10px;width:42px;height:42px}.mini strong{display:block;font-size:15px}.mini span{font-size:13px;color:var(--muted)}
+.use{padding:78px 0 72px;background:linear-gradient(180deg,var(--bg),#071719)}
+.section-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:28px}
+.section-head h2{font-family:Manrope,Inter,sans-serif;font-size:32px;margin:0}.section-head a{color:var(--green);font-weight:700;font-size:14px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{border:1px solid var(--line);border-radius:22px;padding:28px;background:linear-gradient(145deg,rgba(255,255,255,.045),rgba(255,255,255,.012));min-height:210px}
+.cardtop{display:flex;align-items:center;gap:14px;margin-bottom:18px}.cardtop .ico{margin:0;width:44px;height:44px}.card h3{margin:0;font-size:19px}
+.card p{color:var(--muted);margin:0;font-size:15px}.tag{margin-top:22px;font-size:12px;color:var(--green);font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.cta{padding:0 0 60px;background:#071719}
+.ctabox{border-radius:28px;min-height:180px;padding:36px 40px;display:grid;grid-template-columns:1fr 150px 1fr;align-items:center;gap:24px;background:radial-gradient(circle at 50% 50%,rgba(52,241,132,.18),transparent 38%),linear-gradient(100deg,#0B2A22,#0C4B2D);box-shadow:0 30px 80px rgba(0,0,0,.35)}
+.ctabox h2{font-family:Manrope,Inter,sans-serif;font-size:30px;margin:0 0 6px}.ctabox p{margin:0;color:#D7E2DE}.ctaicon{display:grid;place-items:center}.ctaicon img{width:108px;filter:drop-shadow(0 14px 30px rgba(0,0,0,.35))}.ctaright{text-align:right}
+footer{padding:34px 0 42px;border-top:1px solid var(--line);background:#051214}
+.footer-row{display:flex;align-items:center;justify-content:space-between;gap:30px;color:#9DB0B2;font-size:13px}
+.footer-links{display:flex;gap:20px;flex-wrap:wrap}.footer-links a:hover{color:var(--green)}
+@media(max-width:900px){
+  header{position:relative;background:#061416}.nav{flex-wrap:wrap}.navlinks{display:none}.navcta{margin-left:auto}.brand{font-size:20px}.brand img{width:42px;height:42px}
+  .hero{min-height:auto}.hero::before{background-position:63% center;opacity:.55}.hero-inner{grid-template-columns:1fr;min-height:auto;padding-top:64px;padding-bottom:76px}.hero h1{max-width:650px}
+  .valuegrid{grid-template-columns:1fr 1fr}.value:nth-child(2){border-right:0}.value:nth-child(-n+2){border-bottom:1px solid var(--line)}
+  .split{grid-template-columns:1fr}.split-photo{min-height:420px}.split-copy{padding:54px 30px}.cards{grid-template-columns:1fr}.ctabox{grid-template-columns:1fr;text-align:center}.ctaright{text-align:center}.footer-row{flex-direction:column;text-align:center}
+}
+@media(max-width:620px){
+  .wrap{width:min(100% - 28px,1180px)}.navcta .btn{padding:10px 14px;font-size:12px}.brand{font-size:18px}
+  .hero::before{background-position:66% center;opacity:.38}.hero h1{font-size:48px}.hero p{font-size:16px}.actions .btn{width:100%}
+  .valuegrid{grid-template-columns:1fr}.value{border-right:0;border-bottom:1px solid var(--line)}.value:last-child{border-bottom:0}
+  .split-photo{min-height:310px}.minis{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}.ctabox{padding:30px 22px}.ctabox h2{font-size:27px}
+}
+</style>
 </head>
 <body>
 <header>
-  <div class="container nav">
-    <a class="brand" href="#inicio"><img src="logo-oficial.png" alt="Logo ASI SI"><span>ASI SI</span></a>
+  <div class="wrap nav">
+    <a class="brand" href="#inicio">
+      <img src="https://d1yei2z3i6k35z.cloudfront.net/19058678/6aaf00d36b8201.64005125_FAVICON.png" alt="The DigYtal Studio">
+      <span>The DigYtal Studio</span>
+    </a>
     <nav class="navlinks" aria-label="Principal">
-      <a href="#categorias">Categorías</a>
-      <a href="#metodo">Cómo elegimos</a>
-      <a href="/soluciones.html">Soluciones</a>
-      <a class="nav-cta" href="https://www.tiktok.com/@asisilab" target="_blank" rel="noopener">@asisilab</a>
+      <a href="#inicio">Inicio</a>
+      <a href="https://thedigytalstudio.systeme.io/543008fb">Productos</a>
+      <a href="#soluciones">Soluciones</a>
+      <a href="https://thedigytalstudio.systeme.io/4acf7b0b">Recursos</a>
+      <a href="https://thedigytalstudio.systeme.io/a7177fef">Contacto</a>
     </nav>
+    <div class="navcta"><a class="btn primary" href="https://thedigytalstudio.systeme.io/543008fb">Explorar productos</a></div>
   </div>
 </header>
 
 <main>
-  <section class="hero" id="inicio">
-    <div class="container hero-grid">
-      <div>
-        <div class="eyebrow"><span class="dot"></span> Laboratorio de soluciones</div>
-        <h1>Soluciones que te <span class="accent">simplifican la vida.</span></h1>
-        <p class="lead">Buscamos, comparamos y seleccionamos apps, gadgets, herramientas y tecnología útil que resuelven problemas reales. Menos tiempo buscando. Más tiempo viviendo.</p>
-        <div class="hero-actions">
-          <a class="btn-primary" href="/soluciones.html">Ver las soluciones</a>
-          <a class="btn-secondary" href="#metodo">Conoce nuestro criterio</a>
-        </div>
-        <p class="micro">¿Se soluciona? <strong>¡Asi Si!</strong> ✓</p>
+<section class="hero" id="inicio">
+  <div class="wrap hero-inner">
+    <div>
+      <div class="kicker">Ideas. Sistemas. Resultados.</div>
+      <h1>Haz más con sistemas <span class="green">más inteligentes.</span></h1>
+      <p>Productos digitales, sistemas y herramientas prácticas para ayudarte a trabajar mejor, vender mejor y crecer.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://thedigytalstudio.systeme.io/543008fb">Explorar productos →</a>
+        <a class="btn ghost" href="#soluciones">Ver soluciones</a>
       </div>
-      <div class="hero-card">
-        <img src="logo-oficial.png" alt="Símbolo ASI SI">
-        <div class="verdict">✓ <b>ASI SI</b> seleccionado</div>
-      </div>
+      <div class="proof"><div class="proof-icon">TDS</div><span>Sistemas, herramientas y recursos para negocios reales.</span></div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="section" id="categorias">
-    <div class="container">
-      <h2 class="section-title">Una sola idea: resolver mejor.</h2>
-      <p class="section-copy">No queremos mostrarte miles de productos. Queremos ayudarte a encontrar soluciones prácticas que tengan sentido para la vida real.</p>
-      <div class="category-grid">
-        <article class="category-card"><div class="icon">📱</div><h3>Apps & AI</h3><p>Herramientas digitales para crear, organizar, automatizar y ahorrar tiempo.</p></article>
-        <article class="category-card"><div class="icon">⌚</div><h3>Tech & wearables</h3><p>Tecnología útil que aporta información, comodidad o productividad.</p></article>
-        <article class="category-card"><div class="icon">🏠</div><h3>Hogar & cocina</h3><p>Productos que reducen esfuerzo, mejoran tareas y simplifican rutinas.</p></article>
-        <article class="category-card"><div class="icon">🛠️</div><h3>Herramientas & jardín</h3><p>Soluciones prácticas para resolver tareas más rápido y con menos fricción.</p></article>
-      </div>
-    </div>
-  </section>
+<section class="values" aria-label="Cómo ayudamos">
+  <div class="wrap valuegrid">
+    <article class="value"><div class="ico">✓</div><h3>Organiza</h3><p>Estructura procesos, ideas y herramientas.</p></article>
+    <article class="value"><div class="ico">⚙</div><h3>Optimiza</h3><p>Simplifica procesos y enfócate en lo importante.</p></article>
+    <article class="value"><div class="ico">◎</div><h3>Vende mejor</h3><p>Usa recursos prácticos para comunicar y convertir.</p></article>
+    <article class="value"><div class="ico">↗</div><h3>Crece</h3><p>Toma mejores decisiones y lleva tu negocio más lejos.</p></article>
+  </div>
+</section>
 
-  <section class="section" id="metodo">
-    <div class="container lab">
-      <div>
-        <div class="eyebrow" style="background:rgba(255,255,255,.10);border-color:rgba(255,255,255,.16);color:#fff"><span class="dot"></span> El filtro ASI SI</div>
-        <h2 class="section-title" style="margin-top:18px">No todo lo viral merece un check.</h2>
-        <p class="section-copy">Nuestro criterio prioriza utilidad, facilidad de uso, reputación, relación valor/precio y la capacidad real de solucionar un problema. Cuando exista un enlace de afiliado, lo indicaremos con transparencia.</p>
-      </div>
-      <div class="steps">
-        <div class="step"><div class="step-num">1</div><div><b>Problema claro</b><span>Debe resolver algo que una persona realmente quiera simplificar.</span></div></div>
-        <div class="step"><div class="step-num">2</div><div><b>Investigación y comparación</b><span>Revisamos características, reputación, alternativas y valor.</span></div></div>
-        <div class="step"><div class="step-num">3</div><div><b>Selección editorial</b><span>Solo lo que supera nuestro filtro llega a “ASI SI”.</span></div></div>
-      </div>
+<section class="split" id="soluciones">
+  <div class="split-photo" role="img" aria-label="Trabajo con herramientas digitales en una laptop"></div>
+  <div class="split-copy">
+    <div class="kicker">Herramientas para resultados reales</div>
+    <h2>Soluciones que logran <span class="green">más</span></h2>
+    <p>The DigYtal Studio crea productos, sistemas y recursos prácticos para simplificar tu negocio y ayudarte a avanzar con más claridad.</p>
+    <div class="minis">
+      <div class="mini"><div class="ico">⚡</div><strong>Menos fricción</strong><span>Procesos más simples</span></div>
+      <div class="mini"><div class="ico">◎</div><strong>Más enfoque</strong><span>Prioridades más claras</span></div>
+      <div class="mini"><div class="ico">↗</div><strong>Mejores resultados</strong><span>Herramientas accionables</span></div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="section" id="soluciones">
-    <div class="container">
-      <h2 class="section-title">Primeras áreas en evaluación</h2>
-      <p class="section-copy">Estamos preparando la primera selección. Estas categorías están en investigación y aún no representan recomendaciones comerciales definitivas.</p>
-      <div class="solution-grid">
-        <article class="solution-card"><div><span class="pill">Hogar</span><h3>Limpieza inteligente</h3><p>Herramientas que convierten tareas repetitivas en procesos más rápidos y cómodos.</p></div><div class="status">En evaluación</div></article>
-        <article class="solution-card"><div><span class="pill">Cocina</span><h3>Preparación más práctica</h3><p>Gadgets que reducen tiempo, esfuerzo y pasos innecesarios en la cocina.</p></div><div class="status">En evaluación</div></article>
-        <article class="solution-card"><div><span class="pill">Tecnología</span><h3>Carga y movilidad</h3><p>Accesorios compactos y útiles para vivir con menos cables y más autonomía.</p></div><div class="status">En evaluación</div></article>
-        <article class="solution-card"><div><span class="pill">Wearables</span><h3>Tecnología que te acompaña</h3><p>Dispositivos que aportan información útil sin complicar tu día.</p></div><div class="status">En evaluación</div></article>
-        <article class="solution-card"><div><span class="pill">Herramientas</span><h3>Tareas resueltas</h3><p>Productos pensados para hacer trabajos cotidianos de forma más simple.</p></div><div class="status">En evaluación</div></article>
-        <article class="solution-card"><div><span class="pill">Apps</span><h3>Productividad sin fricción</h3><p>Software y AI que automatizan, organizan y ahorran tiempo.</p></div><div class="status">En evaluación</div></article>
-      </div>
-      <div class="promise">
-        <div><strong>Útil antes que viral.</strong><span>La tendencia llama la atención; la utilidad construye confianza.</span></div>
-        <div><strong>Transparencia.</strong><span>Identificamos los enlaces de afiliado y no elevamos una comisión por encima del criterio.</span></div>
-        <div><strong>Actualización.</strong><span>Revisamos disponibilidad, valor y pertinencia de las soluciones seleccionadas.</span></div>
-      </div>
+<section class="use" id="recursos">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Cómo ayudamos a negocios como el tuyo</h2>
+      <a href="https://thedigytalstudio.systeme.io/543008fb">Ver productos →</a>
     </div>
-  </section>
+    <div class="cards">
+      <article class="card"><div class="cardtop"><div class="ico">▦</div><h3>Operaciones</h3></div><p>Plantillas y sistemas para ordenar tareas, clientes y procesos sin complicar tu día.</p><div class="tag">Organiza</div></article>
+      <article class="card"><div class="cardtop"><div class="ico">✦</div><h3>Ventas</h3></div><p>Scripts, guías y recursos que te ayudan a responder mejor, dar seguimiento y avanzar conversaciones.</p><div class="tag">Vende mejor</div></article>
+      <article class="card"><div class="cardtop"><div class="ico">↗</div><h3>Crecimiento</h3></div><p>Recursos claros para tomar decisiones, implementar mejoras y construir un negocio más eficiente.</p><div class="tag">Crece</div></article>
+    </div>
+  </div>
+</section>
 
-  <section class="section">
-    <div class="container">
-      <div class="cta">
-        <div><h2>Estamos empezando el laboratorio.</h2><p>Sigue @asisilab para ver las primeras soluciones en acción.</p></div>
-        <a class="btn-primary" href="https://www.tiktok.com/@asisilab" target="_blank" rel="noopener">Ir a TikTok</a>
-      </div>
-      <div class="disclosure"><strong>Divulgación de afiliados:</strong> ASI SI puede recibir una comisión cuando una compra se realiza mediante algunos enlaces publicados en este sitio, sin costo adicional para el usuario. La existencia de una comisión no garantiza una recomendación ni sustituye nuestro proceso de selección editorial.</div>
-    </div>
-  </section>
+<section class="cta">
+  <div class="wrap ctabox">
+    <div><h2>Tu negocio puede lograr <span class="green">más</span></h2><p>Sistemas. Herramientas. Crecimiento.</p></div>
+    <div class="ctaicon"><img src="https://d1yei2z3i6k35z.cloudfront.net/19058678/6aaf00d36b8201.64005125_FAVICON.png" alt="The DigYtal Studio"></div>
+    <div class="ctaright"><a class="btn primary" href="https://thedigytalstudio.systeme.io/543008fb">Explorar productos →</a></div>
+  </div>
+</section>
 </main>
 
 <footer>
-  <div class="container footer-grid">
-    <div><div class="small-logo"><img src="logo-oficial.png" alt="ASI SI"> ASI SI</div><div style="margin-top:8px">Soluciones que te simplifican la vida.</div></div>
-    <div class="footer-links"><a href="privacy.html">Privacidad</a><a href="terms.html">Términos</a><a href="https://www.tiktok.com/@asisilab" target="_blank" rel="noopener">TikTok</a></div>
+  <div class="wrap footer-row">
+    <div>© 2026 The DigYtal Studio. Productos digitales para negocios reales.</div>
+    <div class="footer-links">
+      <a href="https://thedigytalstudio.systeme.io/4f048534">Sobre TDS</a>
+      <a href="https://thedigytalstudio.systeme.io/7a3438bd">Políticas</a>
+      <a href="https://thedigytalstudio.systeme.io/a7177fef">Contacto</a>
+    </div>
   </div>
 </footer>
 </body>
