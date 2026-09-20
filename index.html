@@ -30,11 +30,11 @@ header{position:absolute;z-index:20;left:0;right:0;top:0;padding:22px 0}
 .navlinks a:hover{color:var(--green)}
 .navcta{margin-left:6px}
 .hero{min-height:670px;position:relative;overflow:hidden;background:#061416}
+.hero-photo{position:absolute;right:0;top:0;width:64%;height:100%;object-fit:cover;object-position:center;z-index:0}
 .hero::before{
-  content:"";position:absolute;inset:0;
-  background:
-    linear-gradient(90deg,#061416 0%,#061416 32%,rgba(6,20,22,.88) 45%,rgba(6,20,22,.20) 72%,rgba(6,20,22,.06) 100%),
-    url('/assets/tds-hero-approved.jpg') center right/cover no-repeat;
+  content:"";position:absolute;inset:0;z-index:1;
+  background:linear-gradient(90deg,#061416 0%,#061416 32%,rgba(6,20,22,.88) 45%,rgba(6,20,22,.20) 72%,rgba(6,20,22,.06) 100%);
+  pointer-events:none
 }
 .hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:120px;background:linear-gradient(transparent,var(--bg))}
 .hero-inner{position:relative;z-index:3;min-height:670px;display:grid;grid-template-columns:minmax(0,520px) 1fr;align-items:center;padding-top:120px;padding-bottom:82px}
@@ -77,13 +77,13 @@ footer{padding:34px 0 42px;border-top:1px solid var(--line);background:#051214}
 .footer-links{display:flex;gap:20px;flex-wrap:wrap;align-items:center}.footer-links>a:hover{color:var(--green)}.socials{display:inline-flex;gap:9px;margin-left:4px}.socials a{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.035);color:#DDE6E7;transition:.2s ease}.socials a:hover{color:var(--green);border-color:rgba(52,241,132,.45);background:rgba(52,241,132,.08);transform:translateY(-1px)}.socials svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.socials a:nth-child(3) svg,.socials a:nth-child(5) svg{fill:currentColor;stroke:none}.socials a:nth-child(4) svg path:first-child{fill:none}.socials a:nth-child(4) svg path:last-child{fill:currentColor;stroke:none}
 @media(max-width:900px){
   header{position:relative;background:#061416}.nav{flex-wrap:wrap}.navlinks{display:none}.navcta{margin-left:auto}.brand{font-size:20px}.brand img{width:42px;height:42px}
-  .hero{min-height:auto}.hero::before{background-position:63% center;opacity:.55}.hero-inner{grid-template-columns:1fr;min-height:auto;padding-top:64px;padding-bottom:76px}.hero h1{max-width:650px}
+  .hero{min-height:auto}.hero-photo{width:100%;object-position:62% center;opacity:.62}.hero::before{background:linear-gradient(90deg,#061416 0%,rgba(6,20,22,.92) 36%,rgba(6,20,22,.35) 75%,rgba(6,20,22,.18) 100%)}.hero-inner{grid-template-columns:1fr;min-height:auto;padding-top:64px;padding-bottom:76px}.hero h1{max-width:650px}
   .valuegrid{grid-template-columns:1fr 1fr}.value:nth-child(2){border-right:0}.value:nth-child(-n+2){border-bottom:1px solid var(--line)}
   .split{grid-template-columns:1fr}.split-photo{min-height:420px}.split-copy{padding:54px 30px}.cards{grid-template-columns:1fr}.ctabox{grid-template-columns:1fr;text-align:center}.ctaright{text-align:center}.footer-row{flex-direction:column;text-align:center}
 }
 @media(max-width:620px){
   .wrap{width:min(100% - 28px,1180px)}.navcta .btn{padding:10px 14px;font-size:12px}.brand{font-size:18px}
-  .hero::before{background-position:66% center;opacity:.38}.hero h1{font-size:48px}.hero p{font-size:16px}.actions .btn{width:100%}
+  .hero-photo{width:100%;object-position:64% center;opacity:.50}.hero h1{font-size:48px}.hero p{font-size:16px}.actions .btn{width:100%}
   .valuegrid{grid-template-columns:1fr}.value{border-right:0;border-bottom:1px solid var(--line)}.value:last-child{border-bottom:0}
   .split-photo{min-height:310px}.minis{grid-template-columns:1fr}.section-head{align-items:flex-start;flex-direction:column}.ctabox{padding:30px 22px}.ctabox h2{font-size:27px}
 }
@@ -109,6 +109,7 @@ footer{padding:34px 0 42px;border-top:1px solid var(--line);background:#051214}
 
 <main>
 <section class="hero" id="inicio">
+  <img class="hero-photo" src="/assets/tds-hero-approved.jpg" alt="Equipo de The DigYtal Studio trabajando en una oficina">
   <div class="wrap hero-inner">
     <div>
       <div class="kicker">Ideas. Sistemas. Resultados.</div>
