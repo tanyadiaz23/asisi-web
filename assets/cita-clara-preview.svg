@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#087FEE"/><stop offset="1" stop-color="#06EC88"/></linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061114"/><stop offset="1" stop-color="#0A1C20"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#000" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1200" height="760" rx="34" fill="url(#bg)"/>
+<circle cx="76" cy="70" r="22" fill="url(#g)"/>
+<text x="114" y="79" fill="#F7F8F8" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="700">The DigYtal Studio</text>
+<text x="66" y="186" fill="#06EC88" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="4">PRODUCTO DIGITAL · BEAUTY &amp; GROOMING</text>
+<text x="66" y="284" fill="#F7F8F8" font-family="Inter,Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-2">CITA CLARA</text>
+<text x="66" y="345" fill="#B5C0CA" font-family="Inter,Arial,sans-serif" font-size="31">Sistema práctico de mensajes y seguimiento</text>
+<text x="66" y="388" fill="#B5C0CA" font-family="Inter,Arial,sans-serif" font-size="31">para negocios que viven de sus citas.</text>
+<rect x="66" y="454" width="420" height="64" rx="32" fill="none" stroke="#06EC88" stroke-width="3"/>
+<text x="276" y="495" text-anchor="middle" fill="#06EC88" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="800">GUÍA VISUAL DE IMPLEMENTACIÓN</text>
+<rect x="66" y="538" width="334" height="64" rx="32" fill="#06EC88"/>
+<text x="233" y="579" text-anchor="middle" fill="#061114" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="800">US$9 BETA · PAGO ÚNICO</text>
+<text x="66" y="684" fill="#75838D" font-family="Inter,Arial,sans-serif" font-size="19">24 mensajes esenciales · Decision Map · Quick Replies · seguimiento · bonus</text>
+
+<g transform="translate(690,110)" filter="url(#shadow)">
+  <rect width="408" height="560" rx="40" fill="#061114" stroke="#2AB2F7" stroke-width="4"/>
+  <rect x="24" y="24" width="360" height="70" rx="20" fill="#10262B" stroke="#16363D"/>
+  <circle cx="60" cy="59" r="18" fill="#06EC88"/>
+  <text x="92" y="67" fill="#F7F8F8" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700">Cita Clara</text>
+  <rect x="38" y="136" width="242" height="92" rx="18" fill="#17323A"/>
+  <text x="58" y="176" fill="#F7F8F8" font-family="Inter,Arial,sans-serif" font-size="21">¿Cuánto cuesta</text>
+  <text x="58" y="204" fill="#F7F8F8" font-family="Inter,Arial,sans-serif" font-size="21">volumen?</text>
+  <rect x="96" y="266" width="270" height="110" rx="18" fill="#06EC88"/>
+  <text x="116" y="306" fill="#061114" font-family="Inter,Arial,sans-serif" font-size="18">[SERVICIO] tiene un precio</text>
+  <text x="116" y="331" fill="#061114" font-family="Inter,Arial,sans-serif" font-size="18">de [PRECIO]... ¿Lo buscas</text>
+  <text x="116" y="356" fill="#061114" font-family="Inter,Arial,sans-serif" font-size="18">para esta semana o una fecha?</text>
+  <rect x="38" y="414" width="220" height="82" rx="18" fill="#17323A"/>
+  <text x="58" y="451" fill="#F7F8F8" font-family="Inter,Arial,sans-serif" font-size="18">Me funciona el viernes.</text>
+  <rect x="152" y="514" width="214" height="74" rx="18" fill="#164A40"/>
+  <text x="172" y="558" fill="#F7F8F8" font-family="Inter,Arial,sans-serif" font-size="18">Perfecto. Próximo paso →</text>
+</g>
+</svg>
