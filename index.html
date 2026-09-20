@@ -11,18 +11,18 @@
 <link rel="icon" href="https://d1yei2z3i6k35z.cloudfront.net/19058678/6aaf00d36b8201.64005125_FAVICON.png">
 <style>
 :root{
-  --bg:#061416;--bg2:#0A1B1E;--card:#0D2023;--card2:#11292C;
-  --green:#34F184;--green2:#63FA73;--blue:#169AF7;--blue2:#0A68EA;
-  --white:#F5F7F7;--muted:#BAC7C9;--line:rgba(255,255,255,.10);
+  --bg:#061114;--bg2:#0A1C20;--card:#10262B;--card2:#10262B;
+  --green:#06EC88;--green2:#5CF165;--blue:#087FEE;--blue2:#2AB2F7;
+  --white:#F7F8F8;--muted:#B5C0CA;--line:rgba(255,255,255,.10);
 }
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:Inter,Arial,sans-serif;line-height:1.45}a{text-decoration:none;color:inherit}img{max-width:100%;display:block}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:Inter,Arial,sans-serif;line-height:1.45}section{scroll-margin-top:98px}a{text-decoration:none;color:inherit}img{max-width:100%;display:block}
 .wrap{width:min(1180px,calc(100% - 48px));margin:auto}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 22px;border-radius:999px;font-weight:800;border:1px solid transparent;transition:.2s ease}
 .btn.primary{background:linear-gradient(90deg,var(--green),var(--green2));color:#03100A;box-shadow:0 14px 40px rgba(52,241,132,.18)}
 .btn.primary:hover{transform:translateY(-1px);box-shadow:0 18px 44px rgba(52,241,132,.28)}
 .btn.ghost{border-color:rgba(255,255,255,.35);background:rgba(5,20,22,.42);backdrop-filter:blur(8px)}
 .green{color:var(--green)}.kicker{font-size:12px;text-transform:uppercase;letter-spacing:.24em;color:var(--green);font-weight:800}
-header{position:absolute;z-index:20;left:0;right:0;top:0;padding:22px 0}
+header{position:sticky;z-index:50;left:0;right:0;top:0;padding:14px 0;background:rgba(6,17,20,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;gap:28px}
 .brand{display:flex;align-items:center;gap:12px;font-family:Manrope,Inter,sans-serif;font-size:24px;font-weight:800;white-space:nowrap}
 .brand img{width:48px;height:48px;object-fit:contain}
@@ -76,7 +76,8 @@ footer{padding:34px 0 42px;border-top:1px solid var(--line);background:#051214}
 .footer-row{display:flex;align-items:center;justify-content:space-between;gap:30px;color:#9DB0B2;font-size:13px}
 .footer-links{display:flex;gap:20px;flex-wrap:wrap;align-items:center}.footer-links>a:hover{color:var(--green)}.socials{display:inline-flex;gap:9px;margin-left:4px}.socials a{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.035);color:#DDE6E7;transition:.2s ease}.socials a:hover{color:var(--green);border-color:rgba(52,241,132,.45);background:rgba(52,241,132,.08);transform:translateY(-1px)}.socials svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.socials a:nth-child(3) svg,.socials a:nth-child(5) svg{fill:currentColor;stroke:none}.socials a:nth-child(4) svg path:first-child{fill:none}.socials a:nth-child(4) svg path:last-child{fill:currentColor;stroke:none}
 @media(max-width:900px){
-  header{position:relative;background:#061416}.nav{flex-wrap:wrap}.navlinks{display:none}.navcta{margin-left:auto}.brand{font-size:20px}.brand img{width:42px;height:42px}
+  #productos .card,#recursos .card{grid-template-columns:1fr!important}
+  header{position:sticky;background:rgba(6,17,20,.97)}.nav{flex-wrap:wrap}.navlinks{display:flex;order:3;width:100%;overflow-x:auto;gap:18px;padding:10px 2px 2px;white-space:nowrap;scrollbar-width:none}.navlinks::-webkit-scrollbar{display:none}.navcta{margin-left:auto}.brand{font-size:20px}.brand img{width:42px;height:42px}
   .hero{min-height:auto}.hero-photo{width:100%;object-position:62% center;opacity:.62}.hero::before{background:linear-gradient(90deg,#061416 0%,rgba(6,20,22,.92) 36%,rgba(6,20,22,.35) 75%,rgba(6,20,22,.18) 100%)}.hero-inner{grid-template-columns:1fr;min-height:auto;padding-top:64px;padding-bottom:76px}.hero h1{max-width:650px}
   .valuegrid{grid-template-columns:1fr 1fr}.value:nth-child(2){border-right:0}.value:nth-child(-n+2){border-bottom:1px solid var(--line)}
   .split{grid-template-columns:1fr}.split-photo{min-height:420px}.split-copy{padding:54px 30px}.cards{grid-template-columns:1fr}.ctabox{grid-template-columns:1fr;text-align:center}.ctaright{text-align:center}.footer-row{flex-direction:column;text-align:center}
@@ -98,10 +99,10 @@ footer{padding:34px 0 42px;border-top:1px solid var(--line);background:#051214}
     </a>
     <nav class="navlinks" aria-label="Principal">
       <a href="#inicio">Inicio</a>
-      <a href="https://thedigytalstudio.systeme.io/543008fb">Productos</a>
+      <a href="#productos">Productos</a>
       <a href="#soluciones">Soluciones</a>
-      <a href="https://thedigytalstudio.systeme.io/4acf7b0b">Recursos</a>
-      <a href="https://thedigytalstudio.systeme.io/a7177fef">Contacto</a>
+      <a href="#recursos">Recursos</a>
+      <a href="#contacto">Contacto</a>
     </nav>
     <div class="navcta"><a class="btn primary" href="https://thedigytalstudio.systeme.io/4339d633">Ver CITA CLARA</a></div>
   </div>
@@ -147,7 +148,7 @@ footer{padding:34px 0 42px;border-top:1px solid var(--line);background:#051214}
   </div>
 </section>
 
-<section class="use" id="recursos">
+<section class="use" id="como-ayudamos">
   <div class="wrap">
     <div class="section-head">
       <h2>Cómo ayudamos a negocios como el tuyo</h2>
@@ -157,6 +158,51 @@ footer{padding:34px 0 42px;border-top:1px solid var(--line);background:#051214}
       <article class="card"><div class="cardtop"><div class="ico">▦</div><h3>Operaciones</h3></div><p>Plantillas y sistemas para ordenar tareas, clientes y procesos sin complicar tu día.</p><div class="tag">Organiza</div></article>
       <article class="card"><div class="cardtop"><div class="ico">✦</div><h3>Ventas</h3></div><p>Scripts, guías y recursos que te ayudan a responder mejor, dar seguimiento y avanzar conversaciones.</p><div class="tag">Vende mejor</div></article>
       <article class="card"><div class="cardtop"><div class="ico">↗</div><h3>Crecimiento</h3></div><p>Recursos claros para tomar decisiones, implementar mejoras y construir un negocio más eficiente.</p><div class="tag">Crece</div></article>
+    </div>
+  </div>
+</section>
+
+
+<section class="use" id="productos" style="background:#061114">
+  <div class="wrap">
+    <div class="section-head">
+      <div><div class="kicker">Producto destacado</div><h2 style="margin-top:10px">CITA CLARA</h2></div>
+      <a href="https://thedigytalstudio.systeme.io/4339d633">Ver producto →</a>
+    </div>
+    <div class="card" style="display:grid;grid-template-columns:minmax(0,1.05fr) minmax(280px,.95fr);gap:28px;align-items:center;min-height:0">
+      <div>
+        <div class="tag" style="margin-top:0">Para especialistas y negocios de belleza</div>
+        <h3 style="font-family:Manrope,Inter,sans-serif;font-size:34px;margin:12px 0 14px">Convierte tus conversaciones en un sistema claro de seguimiento y citas.</h3>
+        <p style="font-size:16px;color:var(--muted);margin-bottom:22px">Mensajes, mapa de decisión, respuestas rápidas, constructor de políticas, tracker manual y prompts de IA para manejar mejor consultas, depósitos, confirmaciones y rebooking.</p>
+        <a class="btn primary" href="https://thedigytalstudio.systeme.io/4339d633">Ver CITA CLARA · US$9 →</a>
+      </div>
+      <img src="https://lh7-us.googleusercontent.com/docsdf/AFQj2d5RR6cPvJXOHO5XKa7Eq6wr-uHypotaSwaAaOc2xteO9ZOxFkBz1SmtcqjEJcpyYIs2ZBoJpZ3rjplmgX8K_S-tAxMTCMSx9ZHz-VyVUapnVPo-wpnL3iML7LemaLf4fQ2YS9X_gogb1TAEmIrGaq8-ASRyK119goiEQoTWnKTr7M-h=s1600" alt="Vista previa de CITA CLARA" style="width:100%;border-radius:18px;border:1px solid var(--blue);background:var(--bg2)">
+    </div>
+  </div>
+</section>
+
+<section class="use" id="recursos" style="background:#071719">
+  <div class="wrap">
+    <div class="section-head">
+      <div><div class="kicker">Recurso gratuito</div><h2 style="margin-top:10px">5 MENSAJES PARA NO DEJAR UNA CITA EN EL AIRE</h2></div>
+    </div>
+    <div class="card" style="min-height:0;display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center">
+      <div>
+        <p style="font-size:17px;color:var(--muted);max-width:760px">Respuestas listas para precio, depósito, confirmación, seguimiento y rebooking por WhatsApp e Instagram. Pensado para especialistas y negocios de belleza que atienden clientes mientras también manejan consultas y citas desde el teléfono.</p>
+        <div class="tag">Gratis · acceso inmediato</div>
+      </div>
+      <a class="btn primary" href="https://thedigytalstudio.systeme.io/4d2f7e62">Obtener los 5 mensajes →</a>
+    </div>
+  </div>
+</section>
+
+<section class="use" id="contacto" style="background:#061114;padding-top:34px">
+  <div class="wrap">
+    <div class="card" style="min-height:0;text-align:center">
+      <div class="kicker">Contacto</div>
+      <h2 style="font-family:Manrope,Inter,sans-serif;font-size:32px;margin:12px 0">¿Necesitas ayuda con The DigYtal Studio?</h2>
+      <p style="color:var(--muted);margin:0 0 20px">Escríbenos y te ayudamos con acceso, productos o soporte.</p>
+      <a class="btn ghost" href="mailto:thedigytalstudio@outlook.com">thedigytalstudio@outlook.com</a>
     </div>
   </div>
 </section>
@@ -174,9 +220,9 @@ footer{padding:34px 0 42px;border-top:1px solid var(--line);background:#051214}
   <div class="wrap footer-row">
     <div>© 2026 The DigYtal Studio. Productos digitales para negocios reales.</div>
     <div class="footer-links">
-      <a href="https://thedigytalstudio.systeme.io/4f048534">Sobre TDS</a>
+      <a href="#inicio">Sobre TDS</a>
       <a href="https://thedigytalstudio.systeme.io/7a3438bd">Políticas</a>
-      <a href="https://thedigytalstudio.systeme.io/a7177fef">Contacto</a>
+      <a href="#contacto">Contacto</a>
       <span class="socials" aria-label="Redes sociales">
         <a href="https://www.instagram.com/thedigytalstudio/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
           <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
@@ -197,6 +243,6 @@ footer{padding:34px 0 42px;border-top:1px solid var(--line);background:#051214}
     </div>
   </div>
 </footer>
-<!-- TDS-FINAL-PREVIEW-2026-09-19 -->
+<!-- TDS-NAV-ROUTING-FIX-2026-09-19 -->
 </body>
 </html>
