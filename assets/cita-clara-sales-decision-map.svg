@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<rect width="1200" height="720" rx="34" fill="#061114"/>
+<rect x="28" y="28" width="1144" height="664" rx="30" fill="#0A1C20" stroke="#087FEE" stroke-width="3"/>
+<text x="72" y="95" fill="#2AB2F7" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="3">DECISION MAP + QUICK REPLIES</text>
+<text x="72" y="164" fill="#F7F8F8" font-family="Inter,Arial,sans-serif" font-size="48" font-weight="800">Saber qué responder y qué sigue.</text>
+<g font-family="Inter,Arial,sans-serif" font-size="18" font-weight="800">
+<rect x="76" y="260" width="180" height="72" rx="20" fill="#10262B"/><text x="166" y="305" text-anchor="middle" fill="#F7F8F8">CONSULTA</text>
+<path d="M256 296h64" stroke="#06EC88" stroke-width="5"/><path d="M312 284l18 12-18 12" fill="#06EC88"/>
+<rect x="330" y="260" width="180" height="72" rx="20" fill="#10262B"/><text x="420" y="305" text-anchor="middle" fill="#F7F8F8">INFO</text>
+<path d="M510 296h64" stroke="#06EC88" stroke-width="5"/><path d="M566 284l18 12-18 12" fill="#06EC88"/>
+<rect x="584" y="260" width="190" height="72" rx="20" fill="#10262B"/><text x="679" y="305" text-anchor="middle" fill="#F7F8F8">DEPÓSITO</text>
+<path d="M774 296h64" stroke="#06EC88" stroke-width="5"/><path d="M830 284l18 12-18 12" fill="#06EC88"/>
+<rect x="848" y="260" width="250" height="72" rx="20" fill="#06EC88"/><text x="973" y="305" text-anchor="middle" fill="#061114">CONFIRMACIÓN</text>
+</g>
+<rect x="150" y="420" width="900" height="150" rx="28" fill="#10262B" stroke="#2AB2F7" stroke-width="2"/>
+<text x="190" y="465" fill="#2AB2F7" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="800">RESPUESTA RÁPIDA</text>
+<text x="190" y="515" fill="#F7F8F8" font-family="Inter,Arial,sans-serif" font-size="25">“[SERVICIO] tiene un precio de [PRECIO]…”</text>
+<text x="190" y="555" fill="#06EC88" font-family="Inter,Arial,sans-serif" font-size="20" font-weight="800">PRÓXIMO PASO → ofrecer opciones reales y mover la conversación.</text>
+<text x="72" y="640" fill="#75838D" font-family="Inter,Arial,sans-serif" font-size="22">Elige el mensaje según la etapa y evita improvisar.</text>
+</svg>
